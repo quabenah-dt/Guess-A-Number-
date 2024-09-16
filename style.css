@@ -1,0 +1,29 @@
+:root {
+    --white: #F5F5F5;
+    --peru: #CD853F;
+    --tan: #D2B48C;
+    --cover: linear-gradient(90deg, rgba(160,82,45,1) 11%, rgba(37,18,5,0.2) 74%);
+    --button-cover: linear-gradient(90deg, rgba(173,82,45,1) 0%, rgba(71,34,18,0.8) 100%);
+
+    --xs-font: 27px;
+    --s-font: 40px;
+    --regular-font: 47px;
+    --large-font: 57px; 
+    --number: 70px;
+
+    --main-font: 'Futura PT Extra Bold';
+    --heading: 'Futura PT Bold';
+    --normal: 'Futura PT Heavy';
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+

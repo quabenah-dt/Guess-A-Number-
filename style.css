@@ -3,7 +3,7 @@
     --peru: #CD853F;
     --tan: #D2B48C;
     --cover: linear-gradient(90deg, rgba(160,82,45,1) 11%, rgba(37,18,5,0.2) 74%);
-    --button-cover: linear-gradient(90deg, rgba(173,82,45,1) 0%, rgba(71,34,18,0.8) 100%);
+    --button-cover: linear-gradient(90deg, rgba(173,82,45,1) 0%, rgba(71,34,18,0.8) 80%);
 
     --xs-font: 29px;
     --s-font: 40px;
@@ -75,4 +75,44 @@
 
  .container button:hover {
     background-color: var(--tan);
+ }
+
+
+ .board {
+    border: none;
+    border-radius: 20px;
+    height: 727px;
+    width: 1092x;
+    background-image: var(--button-cover);
+    margin: 50px;
+    justify-content: center;
+ }
+
+ .details {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 100%;
+   color: var(--white);
+ }
+
+ .details p {
+   font-family: var(--main-font);
+   font-size: var(--regular-font);
+ }
+
+ .details input {
+   height: 84px;
+   width: 722px;
+   border-radius: 20px;
+   border: none;
+   margin: 20px;
+   font-family: var(--normal);
+   font-size: var(--xs-font);
+ }
+
+
+ .text {
+   color: var(--peru);
  }

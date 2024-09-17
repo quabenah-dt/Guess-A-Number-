@@ -5,7 +5,7 @@
     --cover: linear-gradient(90deg, rgba(160,82,45,1) 11%, rgba(37,18,5,0.2) 74%);
     --button-cover: linear-gradient(90deg, rgba(173,82,45,1) 0%, rgba(71,34,18,0.8) 100%);
 
-    --xs-font: 27px;
+    --xs-font: 29px;
     --s-font: 40px;
     --regular-font: 47px;
     --large-font: 57px; 
@@ -27,3 +27,52 @@
     margin: 0;
   }
 
+  .container {
+    height: 100vh;
+    /* display: flex;
+    flex-direction: column; */
+    text-align: center;
+    /* justify-content: center; */
+    place-content: center;
+    align-items: center;
+    background-image: url(./Assets/img/bg.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+ .overlay {
+    border-image: var(--cover) fill 1;
+ }
+
+ .logo{
+    height: 264px;
+    width: 254;
+    border: 7px var(--peru) solid;
+    border-radius: 100%;
+    margin-bottom: 50px;
+ }
+
+ .container p {
+    font-family: var(--main-font);
+    font-size: var(--large-font);
+    margin-bottom: 50px;
+    color: var(--white);
+ }
+
+ .container button {
+    border: none;
+    border-radius: 50px;
+    height: 85px;
+    width: 216px;
+    background-color: var(--peru);
+    color: var(--white);
+    font-family: var(--normal);
+    font-size: var(--xs-font);
+    cursor: pointer;
+ }
+
+ .container button:hover {
+    background-color: var(--tan);
+ }

@@ -49,7 +49,7 @@
  .logo{
     height: 264px;
     width: 254;
-    border: 7px var(--peru) solid;
+    border: 7px var(--tan) solid;
     border-radius: 100%;
     margin-bottom: 50px;
  }

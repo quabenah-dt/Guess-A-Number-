@@ -123,10 +123,21 @@
   border-radius: 30px;
   height: 84px;
   width: 389px;
-  padding-bottom: 20px;
   color: var(--white);
   font-family: var(--normal);
   font-size: var(--s-font);
   cursor: pointer;
   background-color: var(--peru);
 }
+
+.details button:hover {
+  background-color: var(--tan);
+}
+
+
+.details button:disabled {
+  background-color: var(--tan);
+  cursor: not-allowed;
+}
+
+

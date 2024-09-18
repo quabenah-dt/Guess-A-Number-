@@ -110,6 +110,11 @@
    margin: 20px;
    font-family: var(--normal);
    font-size: var(--xs-font);
+   padding: 20px;
+   background-color: var(--white);
+   outline: none;
+   color: var(--peru);
+   transition: border-color 0.3s ease-in-out;
  }
 
 

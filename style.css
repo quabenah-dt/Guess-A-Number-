@@ -63,6 +63,7 @@
     font-size: var(--large-font);
     margin-bottom: 50px;
     color: var(--white);
+    text-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
  }
 
  .container button {
@@ -122,6 +123,7 @@
    outline: none;
    color: var(--peru);
    transition: border-color 0.3s ease-in-out;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
  }
  
  .details input::placeholder {
@@ -139,6 +141,7 @@
   font-size: var(--s-font);
   cursor: pointer;
   background-color: var(--peru);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .details button:hover {
@@ -192,6 +195,7 @@
   color: var(--white);
   transition: border-color 0.3s ease-in-out;
   text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .details-guess input::placeholder {
@@ -212,6 +216,7 @@
  cursor: pointer;
  background-color: var(--peru);
  margin-left: 30px;
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .details-guess button:hover {

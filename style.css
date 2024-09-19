@@ -25,15 +25,19 @@
   html, body {
     height: 100%;
     margin: 0;
+    padding: 0;
+    /* min-height: 100vh; */
+    align-items: center;
+    
   }
 
   .container {
     height: 100vh;
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    /* justify-content: center; */
-    place-content: center;
+    justify-content: center;
+    /* place-content: center; */
     align-items: center;
     background-image: url(./Assets/img/bg.jpeg);
     background-size: cover;
@@ -48,7 +52,7 @@
 
  .logo{
     height: 264px;
-    width: 254;
+    width: 254px;
     border: 7px var(--tan) solid;
     border-radius: 100%;
     margin-bottom: 30px;
@@ -82,11 +86,13 @@
     border: none;
     border-radius: 20px;
     height: 727px;
-    width: 1092x;
+    width: 1092px;
     background-image: var(--button-cover);
-    margin: 50px;
+    margin: 50px auto 0 auto;
     justify-content: center;
- }
+    align-items: center;
+    
+  }
 
  .details {
    display: flex;

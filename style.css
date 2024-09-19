@@ -92,6 +92,8 @@
     margin: 50px auto 0 auto;
     justify-content: center;
     align-items: center;
+    display: none;
+    /* display: block; */
     
   }
 
@@ -102,6 +104,8 @@
    justify-content: center;
    height: 100%;
    color: var(--white);
+   display: none;
+   /* display: block; */
  }
 
  .details p {
@@ -163,7 +167,8 @@
   margin: 50px auto 0 auto;
   justify-content: center;
   align-items: center;
-  
+  display: none;
+  /* display: block; */
 }
 
 .details-guess {

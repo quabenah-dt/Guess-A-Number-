@@ -125,8 +125,7 @@
  }
  
  .details input::placeholder {
-  color: var(--tan);
-  opacity: 1.5;
+  color: var(--peru);
 }
 
 .details button {

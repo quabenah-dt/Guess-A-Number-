@@ -152,5 +152,78 @@
   cursor: not-allowed;
 }
 
+.guess {
+  border: none;
+  border-radius: 20px;
+  height: 727px;
+  width: 1092px;
+  background-image: var(--button-cover);
+  margin: 50px auto 0 auto;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.details-guess {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: var(--white);
+}
+
+.details-guess p {
+  font-family: var(--main-font);
+  font-size: var(--regular-font);
+  padding-bottom: 50px;
+}
+
+.details-guess input {
+  height: 212px;
+  width: 242px;
+  border-radius: 30px;
+  border: none;
+  margin: 20px;
+  font-family: var(--heading);
+  font-size: var(--number);
+  padding: 20px;
+  background-color: var(--peru);
+  outline: none;
+  color: var(--white);
+  transition: border-color 0.3s ease-in-out;
+  text-align: center;
+}
+
+.details-guess input::placeholder {
+ color: var(--tan);
+ opacity: 1.5;
+ text-align: center;
+}
+
+.details-guess button {
+ border: none;
+ border-radius: 30px;
+ margin-top: 80px;
+ height: 84px;
+ width: 219px;
+ color: var(--white);
+ font-family: var(--normal);
+ font-size: var(--s-font);
+ cursor: pointer;
+ background-color: var(--peru);
+ margin-left: 30px;
+}
+
+.details-guess button:hover {
+ background-color: var(--tan);
+}
+
+
+.details-guess button:disabled {
+ background-color: var(--tan);
+ cursor: not-allowed;
+}
+
 
 

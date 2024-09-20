@@ -10,4 +10,13 @@ const logoContainer = document.querySelector('.logo-container');
 
 
 
+if (button) {
+    button.addEventListener('click', () => {
+        board.classList.remove('hidden');
+        logoContainer.classList.add('hidden');
+        console.log('button clicked');
+    });
+} else {
+    console.log('not hidden');
+}
 

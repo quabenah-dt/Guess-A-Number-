@@ -86,8 +86,8 @@
  .board {
     border: none;
     border-radius: 20px;
-    height: 727px;
-    width: 1092px;
+    height: 100%;
+    width: 100%;
     background-image: var(--button-cover);
     margin: 50px auto 0 auto;
     justify-content: center;
@@ -96,6 +96,10 @@
     /* display: block; */
     
   }
+
+  /* .board .visible {
+    display: block;
+  } */
 
   .board.hidden {
     display: none;
@@ -107,6 +111,7 @@
    align-items: center;
    justify-content: center;
    height: 100%;
+   width: 100%;
    color: var(--white);
    display: none;
    /* display: block; */

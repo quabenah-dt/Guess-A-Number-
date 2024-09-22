@@ -106,15 +106,14 @@
   }
 
  .details {
-   display: flex;
+   display: flex; /* Ensure this is set to flex */
    flex-direction: column;
    align-items: center;
    justify-content: center;
    height: 100%;
    width: 100%;
    color: var(--white);
-   display: none;
-   /* display: block; */
+   display: flex; /* Change from display: none; to display: flex; */
  }
 
  .details p {
